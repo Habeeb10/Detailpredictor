@@ -7,14 +7,7 @@ import {
 } from "react-native";
 import * as colors from "../component/common/colors";
 
-export const Button = ({
-  title,
-  onPress,
-  style,
-  titleStyle,
-
-  loading,
-}) => {
+export const Button = ({ title, onPress, style, titleStyle, loading }) => {
   return (
     <TouchableOpacity
       onPress={onPress}
